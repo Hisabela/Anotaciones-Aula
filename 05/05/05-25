@@ -1,0 +1,77 @@
+Simular um painel de controle de uma prensa 
+Prensa aaperta o botão, vem o sistema hidráulico (pois é força) (raraamento é pneumático), vai prensar uma chapa e vai prensar e tals
+Sistema de controle desta prensa
+https://github.com/Hisabela/Anotaciones-Aula/tree/main/05/05
+
+regra
+1. liga e  desliga, botões separados. 
+RS!!!!
+simule o botão
+usar o botão tipo togou (aperta mas volta)
+definir: push to make
+condição: a prensa só pode funcionar quando ligar (só quero que funcione qunaod eu disser "ta em operação")
+c) contar o numero de peças feitas
+contador binário de 4 bits fizemos em sala de aula
+a prensa é o "clock"
+contar até 9
+
+criar botão sensor temperatura ("temperatura alta")
+se a temperatura estiver elevada = 1° avisar o operador (se não, ele vai ficar apertando) 2° travar o acionamento (quando a temp voltar continuar o acionamento)
+estourou a temperatura o LED NAO PODE estourar 
+FLEAT FLOT - TIPO D (melhor para armazenar)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Assíncronos
+-se a entrada mudou, a saída também muda!
+
+Sinal de clock = _|-|_|-|_|-|_ = onda quadrada
+
+Entrada Q, saída Q (barrada)
+
+Latch RS
+sensível a borda
+
+Saída sai uma vez, mas FICA (continua) ligada
+Para desligar é necessário mandar desligar, dar um comenado na entrada reset
+Não pode um comando para ligar ou desligar
+
+JK 
+Não pode ter o perigo de apertar desliga e ligar ao mesmo tempo - entra no modo inversão
+Se a saída está 1 irá para 0, se estiver 0 irá para o 1
+
+Trabalho
+
+Sensível a borda de descida
+Frequência caiu pela metade
+Quando um desce assiona o outro
+
+Registradores
+
+Mínimo 8
+
+Serial e paralela
+Prós e contras
+Paralelo - 
+Prós - mais rápido
+Desvantagens - mais fios
+Usamos flat cable para paralelo
+
+Serial - mais barato, porém mais lento
+Paralelo -  
+
+Fleat Flot - tipo D - é aonde queremos chegar
